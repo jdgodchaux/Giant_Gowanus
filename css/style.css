@@ -24,3 +24,12 @@
     color: #333;
     background-color: #fff;
 }
+
+/* Mailchimp overrides */
+#mc_embed_signup .mc-field-group label {
+    font-size: 1.2em;
+}
+
+#mc_embed_signup .button {
+    background-color: #333;
+}
