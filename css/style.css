@@ -8,7 +8,7 @@ body {
 
 /* Bootstrap overrides */
 .navbar-default {
-	background-color: #fff;
+	background-color: #000;
     border: 0;
     border-radius: 0;
     text-transform: uppercase;
@@ -17,19 +17,32 @@ body {
 
 .navbar-default .navbar-nav>li>a {
     margin-top: 50px;
+    color: #fff;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    background-color: #ddd;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    background-color: #ddd;
+    background-color: #fff;
 }
 
 .navbar-brand {
     height: 100px;
     padding: 0px 15px;
+}
+
+.nav-image {
+    margin-top: 25px;
+    max-height: 50px;
+}
+
+@media (min-width: 990px) {
+    .nav-image {
+        margin-top: 0px;
+        max-height: 100px;
+    }
 }
 
 /* Mailchimp overrides */
