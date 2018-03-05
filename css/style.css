@@ -6,6 +6,38 @@ body {
     background-color: #fff;
 }
 
+#quote {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+}
+
+#bio {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
+}
+
+#closer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6em;
+}
+
+#pic {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+}
+
+#monster {
+    float: right;
+    margin-right: 10px;
+  }
+
+#band {
+    float: right;
+    margin-right: 10px;
+}
+
+
+
 /* Bootstrap overrides */
 .navbar-default {
 	background-color: #000;
@@ -56,4 +88,9 @@ body {
 
 .mini-logos {
     margin: 0 25px 20px 0;
+}
+
+.bigFont li{
+    font-size:1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
