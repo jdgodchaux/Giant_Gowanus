@@ -6,6 +6,10 @@ body {
     background-color: #fff;
 }
 
+.main-container {
+    margin-bottom: 30px;
+}
+
 #quote {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2em;
