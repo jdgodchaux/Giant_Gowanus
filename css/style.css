@@ -10,32 +10,32 @@ body {
     margin-bottom: 30px;
 }
 
-#quote {
+.quote {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2em;
 }
 
-#bio {
+.bio {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.3em;
 }
 
-#closer {
+.closer {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.6em;
 }
 
-#pic {
+.pic {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.2em;
 }
 
-#monster {
+.monster {
     float: right;
     margin-right: 10px;
   }
 
-#band {
+.band {
     float: right;
     margin-right: 10px;
 }
